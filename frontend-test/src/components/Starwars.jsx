@@ -3,6 +3,7 @@ import StarWarContainer from "./StarwarContainer";
 import CrewHighestMembers from "../common/utilis";
 import "../css/Starwar.css";
 import Spinner from "../common/Components/Spinner";
+import {CustomImage} from "../common/Components/Common";
 
 
 function StarWar(){
@@ -60,10 +61,11 @@ function StarWar(){
         
     <div className="star_war_details" >
     <div >
+          <p>Sample React Project Using the SWAPI API</p>  
           <p>Results are filtered to startships with a crew size less than 10 and sorted by crew size</p>  
-          <div style={{display:"flex",justifyContent:"center" ,alignItems:"center",gap:"10px"}}>
+          <div >
           <p>The starship that has featured in the most films will show a  </p>
-          <img width={"30px"} height={"30px"} src="https://t4.ftcdn.net/jpg/05/73/13/55/240_F_573135545_QpPCuCRScNyy70u1m9P0DQmAl5w6Hhrf.jpg"/>
+          <CustomImage width="30px" height="30px" src ="https://t4.ftcdn.net/jpg/05/73/13/55/240_F_573135545_QpPCuCRScNyy70u1m9P0DQmAl5w6Hhrf.jpg"/>
           </div>
          
      </div>
